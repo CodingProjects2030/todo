@@ -1,0 +1,24 @@
+/* div{
+    color: #333F63;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    margin-top: 50%;
+    margin-right: 300%;
+}
+ */
+
+
+ .divider:after,
+ .divider:before {
+ content: "";
+ flex: 1;
+ height: 1px;
+ background: #eee;
+ }
+  

@@ -1,0 +1,33 @@
+h1{
+    color: #333F63;
+}
+
+table{
+        color: #333F63;
+}
+
+thead{
+
+    font-size: 18px;
+    font-style: bold;
+}
+
+tbody{
+    font-size: 17px;
+    font-style: bold;
+}
+
+.container{
+    margin-top: 25%
+}
+
+.row{
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+h1{
+    margin-bottom: 18px;
+    padding-bottom: 18PX;
+
+}

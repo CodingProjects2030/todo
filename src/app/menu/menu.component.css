@@ -1,0 +1,27 @@
+header{
+    background-color:#715C8C;
+    
+}
+
+ul {
+    list-style: none; /* Remove the bullet points from the list */
+    font-size: 22px;
+    font-style: bold;
+  }
+
+  li {
+    display: inline-block; /* Display the list items in a row */
+    margin-left: 1px; /* Add some margin to the left of each list item */
+  }
+
+a{
+    color: #D7D4DD;
+    text-decoration: none; /* Remove the underline from the links */
+    padding: 15px; /* Add some padding to the links */
+    display: inline-block;
+}
+
+a:hover {
+    color: #838BC2; /* Set the background color of the links on hover */
+  }
+

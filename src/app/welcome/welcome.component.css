@@ -1,0 +1,73 @@
+/* h1{
+    color: #67595E;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+div{
+    color: #67595E;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+.title-word {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .title-word-1 {
+    --color-1: #41dfff;
+    --color-2: #c777b9;
+    --color-3: #ba83ca;
+  }
+  
+  .title-word-2 {
+    --color-1: #aa8fd8;
+    --color-2: #69bff8;
+    --color-3: #5ffbf1;
+  }
+  
+  .title-word-3 {
+    --color-1: #79b3f4;
+    --color-2: #9a9ae1;
+    --color-3: #52cffe;
+  }
+  
+  .title-word-4 {
+    --color-1: #d16ba5;
+    --color-2: #D67BA8;
+    --color-3: #8aa7ec;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    /* 32%   {color: var(--color-1)} */
+    25%   {color: var(--color-2)}
+    50%   {color: var(--color-2)}
+    75%   {color: var(--color-3)}
+    /* 99%   {color: var(--color-3)} */
+    100%  {color: var(--color-1)}
+  }
+
+  
+  /* Here are just some visual styles. 🖌 */
+  
+  .container {
+    display: grid;
+    place-items: center;  
+    text-align: center;
+    height: 100vh
+  }
+  
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 5.5vw;
+    text-transform: uppercase;
+  }

@@ -1,0 +1,72 @@
+<!-- <h1>Login!</h1>
+
+<div class="container">
+
+<div class="alert alert-warning" *ngIf="invalidLogin">{{errorMessage}}</div>
+
+<div>
+
+User Name : <input type="text" name="username" [(ngModel)]="username">
+Password : <input type="password" name="password" [(ngModel)]="password">
+<button (click)= handleJWTBasicAuthLogin() class="btn btn-success">Login</button>
+
+</div> 
+</div> -->
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"
+  rel="stylesheet"
+/>
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"
+></script>
+
+</head>
+<body style="background: #D7D4DD;">
+  <section class="vh-100">
+    <div class="alert alert-warning" *ngIf="invalidLogin">{{errorMessage}}</div>
+    <div class="container py-5 h-100">
+      <div class="row d-flex align-items-center justify-content-center h-100">
+        <div class="col-md-8 col-lg-7 col-xl-6">
+          <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
+            class="img-fluid" alt="Phone image">
+        </div>
+        <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+          <form>
+            <div class="form-outline mb-4">
+              <input style="background: #fff;" type="username" name="username" class="form-control form-control-lg" [(ngModel)]="username" />
+              <!-- User Name : <input type="text" name="username" [(ngModel)]="username">
+                   Password : <input type="password" name="password" [(ngModel)]="password"> -->
+              <label class="background: #fff; form-label" for="username"></label>
+            </div>
+  
+            <div class="form-outline mb-4">
+              <input style="background: #fff;" type="password" name="password" class="form-control form-control-lg" [(ngModel)]="password" />
+              <!-- <label class="form-label" for="password"></label> -->
+            </div>
+  
+  
+            <button style="background: #715C8C; color: #fff;" (click)= handleJWTBasicAuthLogin() class="btn btn-lg btn-block">Login</button>
+            
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
