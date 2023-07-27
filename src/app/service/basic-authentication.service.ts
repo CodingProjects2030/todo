@@ -21,7 +21,7 @@ export class BasicAuthenticationService {
 
 
     return this.http.post<any>(
-      `https://https://codingprojects2030.github.io/todo/db.json`,{
+      `${API_URL}/authenticate`,{
         username,
         password
       }).pipe(
@@ -46,7 +46,7 @@ export class BasicAuthenticationService {
     });
 
     return this.http.get<AuthenticationBean>(
-      `https://https://codingprojects2030.github.io/todo/db.json`,
+      `${API_URL}/basicauth`,
       { headers: headers }).pipe(
         map(
           data => {
