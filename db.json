@@ -45,7 +45,10 @@
       "password": "dummy",
       "id": 8
     }
-  ],
+  ]
+}
+
+{
    "users": [
     {
       "id": 1,
