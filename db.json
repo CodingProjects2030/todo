@@ -30,13 +30,13 @@
 }],
 "users": [{  
     "id": 1,  
-    "description": "AngularJS (1.0.0)",  
+    "description": "وصف1",  
     "targetDate": "June 14th, 2012",
-  "done": "June 14th, 2012"
+  "done": "نو"
 }, {  
     "id": 2,  
-    "description": "Angular 2",  
+    "description": "وصف2",  
      "targetDate": "June 14th, 2012",
-     "done": "June 14th, 2012"
+     "done": "يس"
 }]  
 }   
